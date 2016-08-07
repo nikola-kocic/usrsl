@@ -1,0 +1,2 @@
+Open with "Microsoft Keyboard Layout Creator" and choose Project -> Build DLL and Setup Package.
+Then run setup.exe from destination folder.

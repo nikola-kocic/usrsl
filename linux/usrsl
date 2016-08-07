@@ -1,0 +1,13 @@
+partial alphanumeric_keys
+xkb_symbols "usrsl" {
+    name[Group1]= "US (Serbian Latin)";
+
+    include "us"
+    key <AB01> { [ z, Z, zcaron, Zcaron  ] };  // Ž
+    key <AB02> { [ x, X, ccaron, Ccaron  ] };  // Č
+    key <AB03> { [ c, C, cacute, Cacute  ] };  // Ć
+    key <AC02> { [ s, S, scaron, Scaron  ] };  // Š
+    key <AC03> { [ d, D, dstroke, Dstroke ] }; // Đ
+
+    include "level3(ralt_switch)"
+};
