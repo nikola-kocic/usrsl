@@ -3,11 +3,16 @@ xkb_symbols "usrsl" {
     name[Group1]= "US (Serbian Latin)";
 
     include "us"
-    key <AB01> { [ z, Z, zcaron, Zcaron  ] };  // Ž
-    key <AB02> { [ x, X, ccaron, Ccaron  ] };  // Č
-    key <AB03> { [ c, C, cacute, Cacute  ] };  // Ć
-    key <AC02> { [ s, S, scaron, Scaron  ] };  // Š
-    key <AC03> { [ d, D, dstroke, Dstroke ] }; // Đ
+    key <AB01> { [ z, Z,  zcaron,         Zcaron   ] };  // Ž
+    key <AB02> { [ x, X,  ccaron,         Ccaron   ] };  // Č
+    key <AB03> { [ c, C,  cacute,         Cacute   ] };  // Ć
+    key <AC02> { [ s, S,  scaron,         Scaron   ] };  // Š
+    key <AC03> { [ d, D,  dstroke,        Dstroke  ] };  // Đ
+    key <AE02> { [ 2, at, EuroSign,       EuroSign ] };  // €
+    key <AD03> { [ e, E,  dead_acute,     NoSymbol ] };  // e.g. ć, é
+    key <AB04> { [ v, V,  dead_caron,     NoSymbol ] };  // e.g. č, š
+    key <AD07> { [ u, U,  dead_diaeresis, NoSymbol ] };  // e.g. ü, ë
+    key <AC09> { [ l, L,  dead_stroke,    NoSymbol ] };  // e.g. đ, ł
 
     include "level3(ralt_switch)"
 };
